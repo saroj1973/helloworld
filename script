@@ -3,7 +3,11 @@ pipeline{
     stages{
       stage('node'){
         steps{
-           echo 'hello from nirdosh'   
+           echo '<html>'
+                         echo '<body>'
+                                   Hello from saroj   
+                         echo '</body>'
+           echo '</html>'
             sh 'whoami'
         }
       }
